@@ -26,7 +26,10 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
-    //okhttp3的依赖
+    //-------------okhttp3的依赖-------------
     compile 'com.squareup.okhttp3:okhttp:3.7.0'
     compile 'com.squareup.okio:okio:1.12.0'
+
+    //-------------glide图片加载-------------
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
 }
