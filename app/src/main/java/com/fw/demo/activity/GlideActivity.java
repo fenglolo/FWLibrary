@@ -3,6 +3,7 @@ package com.fw.demo.activity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.bumptech.glide.DrawableRequestBuilder;
@@ -24,6 +25,9 @@ public class GlideActivity extends BaseActivity implements View.OnClickListener 
     public String url_4 = "http://pic25.nipic.com/20121210/7447430_215258605000_2.jpg";
     public String url_5 = "http://pic.baike.soso.com/p/20131220/20131220231704-1138887644.jpg";
 
+    private Button btn_frist,btn_second;
+    private LinearLayout ll_1,ll_2;
+
     private Button btn_1, btn_2, btn_3, btn_4, btn_5, btn_6, btn_7, btn_8, btn_9, btn_10;
     private ImageView img_glide, img_glide2;
     private TextView tv_glide;
@@ -35,6 +39,11 @@ public class GlideActivity extends BaseActivity implements View.OnClickListener 
 
     @Override
     protected void initGui() {
+        btn_frist = findViewById(R.id.btn_frist);
+        btn_second = findViewById(R.id.btn_second);
+        ll_1 = findViewById(R.id.ll_frist);
+        ll_2 = findViewById(R.id.ll_second);
+
         btn_1 = findViewById(R.id.btn_glide_1);
         btn_2 = findViewById(R.id.btn_glide_2);
         btn_3 = findViewById(R.id.btn_glide_3);
@@ -54,6 +63,8 @@ public class GlideActivity extends BaseActivity implements View.OnClickListener 
 
     @Override
     protected void initAction() {
+        btn_frist.setOnClickListener(this);
+        btn_second.setOnClickListener(this);
         btn_1.setOnClickListener(this);
         btn_2.setOnClickListener(this);
         btn_3.setOnClickListener(this);
@@ -74,6 +85,14 @@ public class GlideActivity extends BaseActivity implements View.OnClickListener 
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
+            case R.id.btn_frist:
+                ll_1.setVisibility(View.VISIBLE);
+                ll_2.setVisibility(View.GONE);
+                break;
+            case R.id.btn_second:
+                ll_1.setVisibility(View.GONE);
+                ll_2.setVisibility(View.VISIBLE);
+                break;
             case R.id.btn_glide_1://基本方法
                 Glide.with(activity)
                         .load(url_1)
