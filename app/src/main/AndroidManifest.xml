@@ -40,6 +40,7 @@
 
         <activity android:name=".MainActivity"/>
         <activity android:name=".activity.GlideActivity"/>
+        <activity android:name=".activity.GifImageViewActivity"/>
 
     </application>
 
