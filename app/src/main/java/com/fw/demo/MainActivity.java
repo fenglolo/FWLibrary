@@ -6,10 +6,11 @@ import android.widget.Button;
 
 import com.fw.demo.activity.GifImageViewActivity;
 import com.fw.demo.activity.GlideActivity;
+import com.fw.demo.activity.animation.AnimationActivity;
 
 public class MainActivity extends BaseActivity implements View.OnClickListener {
 
-    private Button btn_glide,btn_gifImageview;
+    private Button btn_glide,btn_gifImageview,btn_ani;
 
     @Override
     protected int getContentLayout() {
@@ -20,12 +21,14 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     protected void initGui() {
         btn_glide = findViewById(R.id.btn_glide);
         btn_gifImageview = findViewById(R.id.btn_gifImageview);
+        btn_ani = findViewById(R.id.btn_anil);
     }
 
     @Override
     protected void initAction() {
         btn_glide.setOnClickListener(this);
         btn_gifImageview.setOnClickListener(this);
+        btn_ani.setOnClickListener(this);
     }
 
     @Override
@@ -41,6 +44,9 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                 break;
             case R.id.btn_gifImageview://btn_gifImageview使用
                 gotoActviity(GifImageViewActivity.class);
+                break;
+            case R.id.btn_anil://安卓动画
+                gotoActviity(AnimationActivity.class);
                 break;
             default:
                 break;
