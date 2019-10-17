@@ -42,6 +42,7 @@
         <activity android:name=".activity.GlideActivity"/>
         <activity android:name=".activity.GifImageViewActivity"/>
         <activity android:name=".activity.animation.AnimationActivity"/>
+        <activity android:name=".activity.TestActivity"/>
 
     </application>
 
