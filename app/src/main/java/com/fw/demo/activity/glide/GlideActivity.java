@@ -1,4 +1,4 @@
-package com.fw.demo.activity;
+package com.fw.demo.activity.glide;
 
 import android.view.View;
 import android.widget.Button;
@@ -14,6 +14,7 @@ import com.fw.demo.BaseActivity;
 import com.fw.demo.R;
 
 /**
+ * glide组件使用：下载图片
  * Created by feng on 2019/9/4.
  */
 

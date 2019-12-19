@@ -1,4 +1,4 @@
-package com.fw.demo.activity;
+package com.fw.demo.activity.gifImageView;
 
 import android.view.View;
 import android.widget.Button;
@@ -19,6 +19,7 @@ import pl.droidsonroids.gif.GifDrawable;
 import pl.droidsonroids.gif.GifImageView;
 
 /**
+ * gifImageView使用：加载png和gif图片
  * Created by feng on 2019/9/4.
  */
 

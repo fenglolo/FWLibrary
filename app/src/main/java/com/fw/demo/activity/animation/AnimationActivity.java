@@ -115,7 +115,7 @@ public class AnimationActivity extends BaseActivity {
 //        mAnimationDrawable.addFrame(getResources().getDrawable(R.mipmap.loading_00021), duration);
 //        mAnimationDrawable.addFrame(getResources().getDrawable(R.mipmap.loading_00022), duration);
 //        mAnimationDrawable.addFrame(getResources().getDrawable(R.mipmap.loading_00023), duration);
-        mAnimationDrawable.setOneShot(false);
+        mAnimationDrawable.setOneShot(true);
         return mAnimationDrawable;
     }
 
