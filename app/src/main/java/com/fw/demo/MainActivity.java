@@ -3,16 +3,20 @@ package com.fw.demo;
 import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
-import com.fw.demo.activity.GifImageViewActivity;
-import com.fw.demo.activity.GlideActivity;
+import com.fw.demo.activity.gifImageView.GifImageViewActivity;
+import com.fw.demo.activity.glide.GlideActivity;
 import com.fw.demo.activity.TestActivity;
 import com.fw.demo.activity.animation.AnimationActivity;
+import com.fw.demo.activity.textRoll.TextRollActivity;
 
 public class MainActivity extends BaseActivity implements View.OnClickListener {
 
-    private Button btn_glide,btn_gifImageview,btn_ani,btn_test;
+    private Button btn_glide;
+    private Button btn_gifImageview;
+    private Button btn_ani;
+    private Button btn_test;
+    private Button btn_roll;
 
     @Override
     protected int getContentLayout() {
@@ -25,6 +29,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         btn_gifImageview = findViewById(R.id.btn_gifImageview);
         btn_ani = findViewById(R.id.btn_anil);
         btn_test = findViewById(R.id.btn_test);
+        btn_roll = findViewById(R.id.btn_roll);
     }
 
     @Override
@@ -33,6 +38,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         btn_gifImageview.setOnClickListener(this);
         btn_ani.setOnClickListener(this);
         btn_test.setOnClickListener(this);
+        btn_roll.setOnClickListener(this);
     }
 
     @Override
@@ -54,6 +60,9 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                 break;
             case R.id.btn_test://ceshi
                 gotoActviity(TestActivity.class);
+                break;
+            case R.id.btn_roll://安卓滚动字幕
+                gotoActviity(TextRollActivity.class);
                 break;
             default:
                 break;

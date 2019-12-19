@@ -3,4 +3,12 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!--字体颜色-->
+    <color name="font_color_normal">#282828</color>
+    <color name="font_color_normal_weak">#909090</color>
+    <color name="font_color_normal_input">#cacaca</color>
+    <color name="font_color_click">#0ba1d4</color>
+    <color name="font_color_tuchu">#92b83f</color>
+    <color name="font_color_warning">#f65246</color>
 </resources>
