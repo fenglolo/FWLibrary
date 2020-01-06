@@ -44,6 +44,7 @@
         <activity android:name=".activity.animation.AnimationActivity"/>
         <activity android:name=".activity.TestActivity"/>
         <activity android:name=".activity.textRoll.TextRollActivity"/>
+        <activity android:name=".activity.md5.MdfiveActivity"/>
 
     </application>
 

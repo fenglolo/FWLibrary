@@ -57,6 +57,27 @@
                 android:layout_height="wrap_content"
                 android:text="安卓滚动字幕"/>
 
+            <Button
+                android:id="@+id/btn_md5"
+                android:layout_width="match_parent"
+                android:background="@color/font_color_click"
+                android:layout_height="wrap_content"
+                android:text="获取MD5"/>
+
+            <EditText
+                android:id="@+id/ed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_ed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btn_ed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="时间"/>
+
         </LinearLayout>
     </ScrollView>
 
