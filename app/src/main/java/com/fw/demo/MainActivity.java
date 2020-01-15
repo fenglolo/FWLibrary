@@ -1,21 +1,18 @@
 package com.fw.demo;
 
 import android.content.Intent;
-import android.content.res.AssetManager;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.fw.demo.activity.gifImageView.GifImageViewActivity;
-import com.fw.demo.activity.glide.GlideActivity;
 import com.fw.demo.activity.TestActivity;
 import com.fw.demo.activity.animation.AnimationActivity;
+import com.fw.demo.activity.gifImageView.GifImageViewActivity;
+import com.fw.demo.activity.glide.GlideActivity;
 import com.fw.demo.activity.md5.MdfiveActivity;
 import com.fw.demo.activity.textRoll.TextRollActivity;
-import com.yitong.mbank.util.security.Md5Util;
 
-import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
