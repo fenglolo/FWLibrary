@@ -15,6 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * gif帧动画
  * Created by feng on 2019/10/16.
  */
 

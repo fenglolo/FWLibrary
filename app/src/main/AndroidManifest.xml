@@ -39,6 +39,7 @@
         </activity>
 
         <activity android:name=".MainActivity"/>
+
         <activity android:name=".activity.glide.GlideActivity"/>
         <activity android:name=".activity.gifImageView.GifImageViewActivity"/>
         <activity android:name=".activity.animation.AnimationActivity"/>
@@ -47,6 +48,10 @@
         <activity android:name=".activity.md5.MdfiveActivity"/>
         <activity android:name=".activity.webview.WebviewActivity"
             android:theme="@style/ActivityBaseTheme"></activity>
+
+
+        <activity android:name=".activity.test.TestOneActivity"/>
+        <activity android:name=".activity.test.TestTwoActivity" />
 
     </application>
 

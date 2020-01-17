@@ -16,6 +16,7 @@ import java.io.FileOutputStream;
 import java.io.InputStream;
 
 /**
+ * 把assets目录下的文件复制到本地，获取本地文件的md5值
  * Created by feng on 2020/1/6.
  */
 

@@ -11,6 +11,7 @@ import com.fw.demo.activity.animation.AnimationActivity;
 import com.fw.demo.activity.gifImageView.GifImageViewActivity;
 import com.fw.demo.activity.glide.GlideActivity;
 import com.fw.demo.activity.md5.MdfiveActivity;
+import com.fw.demo.activity.test.TestOneActivity;
 import com.fw.demo.activity.textRoll.TextRollActivity;
 
 import java.text.SimpleDateFormat;
@@ -88,7 +89,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                 getTime(l);
                 break;
             case R.id.btn_md5://生成md5
-                gotoActviity(MdfiveActivity.class);
+//                gotoActviity(MdfiveActivity.class);
+                gotoActviity(TestOneActivity.class);
                 break;
             default:
                 break;
